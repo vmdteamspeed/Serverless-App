@@ -3,7 +3,7 @@ import React from 'react';
 import VersionPage from '../pages/versionpage';
 
 export default {
-    title: 'Example/Version Page',
+    title: 'Pages/Version Page',
     component: VersionPage,
 };
 
