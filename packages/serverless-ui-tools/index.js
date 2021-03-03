@@ -226,12 +226,22 @@ class ServerlessUIToolsPlugin {
 
       try {
         await runCommand({
-          command: 'pnpm',
+          command: 'npm',
           args: ['run', 'build'],
           stdout: this.cli,
         });
       } catch (err) {
-        throw new Error(`Error running "pnpm build": ${err}`);
+        throw new Error(`Error running "npm build": ${err}`);
+      }
+
+      try {
+        await runCommand({
+          command: 'npm',
+          args: ['run', 'build-storybook'],
+          stdout: this.cli,
+        });
+      } catch (err) {
+        throw new Error(`Error running "npm build": ${err}`);
       }
     }
 

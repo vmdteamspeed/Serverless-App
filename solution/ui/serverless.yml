@@ -27,7 +27,7 @@ custom:
     SKIP_PREFLIGHT_CHECK: true
     REACT_APP_LOCAL_DEV: false
     REACT_APP_AWS_REGION: ${self:custom.settings.awsRegion}
-    REACT_APP_API_URL: ${self:custom.settings.apiUrl}
+    #REACT_APP_API_URL: ${self:custom.settings.apiUrl}
     REACT_APP_WEBSITE_URL: ${self:custom.settings.websiteUrl}
     REACT_APP_STAGE: ${self:custom.settings.envName}
     REACT_APP_REGION: ${self:custom.settings.awsRegion}

@@ -1,8 +1,8 @@
 # The Gateway API endpoint
-apiUrl: ${cf:${self:custom.settings.backendStackName}.ServiceEndpoint}
+#apiUrl: ${cf:${self:custom.settings.backendStackName}.ServiceEndpoint}
 
 # The stack name of the 'backend' serverless service
-backendStackName: ${self:custom.settings.namespace}-backend
+#backendStackName: ${self:custom.settings.namespace}-backend
 
 # The stack name of the 'cloudfront' serverless service
 infrastructureStackName: ${self:custom.settings.namespace}-infrastructure
