@@ -1,6 +1,3 @@
----
-to: "<%= name === 'unnamed' ? 'ui' : `${name}` %>/serverless.yml"
----
 # For full config options, see docs.serverless.com
 # Note that most settings in here come from config/settings/*.yaml
 service: ${self:custom.settings.awsRegionShortName}-${self:custom.settings.solutionName}-ui
