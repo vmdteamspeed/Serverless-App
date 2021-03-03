@@ -1,3 +1,4 @@
+import React from "react";
 import {buildDate, buildId} from "../helpers/settings";
 
 const VersionPage = () =>{
